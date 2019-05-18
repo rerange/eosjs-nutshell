@@ -1,7 +1,7 @@
 // 在 keys.json 文件里放入你的私钥
 
 // 替换 xxxxxaccount 为你的账号
-const account = 'wallet123123';
+const account = 'xxxxxaccount';
 
 const eos = require('./eosClient.js');
 const rpc = eos.rpc;
