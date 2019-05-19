@@ -30,8 +30,24 @@ async function createAccount(creator, name, owner, active, bytes, stakeNET, stak
         data: {
           creator: creator,
           name: name,
-          owner: owner,
-          active: active
+          owner: {
+            threshold: 1,
+            keys: [{
+              key: owner,
+              weight: 1
+            }],
+            accounts: [],
+            waits: []
+          },
+          active: {
+            threshold: 1,
+            keys: [{
+              key: active,
+              weight: 1
+            }],
+            accounts: [],
+            waits: []
+            }
         }
       },
       {
