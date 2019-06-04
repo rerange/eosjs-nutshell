@@ -8,7 +8,7 @@ const rpc = eos.rpc;
 
 // 查询账号权限、资源等信息
 async function queryAccount(account){
-    const resp = await await rpc.get_account(account);
+    const resp = await rpc.get_account(account);
     return resp; 
 };
 
