@@ -4,7 +4,7 @@
 // 替换 xxxxxaccount 为你的账号，替换 newaccount 为你准备创建的账号
 // ** 替换 owner 和 active 两个地方的公钥为 newaccount 的公钥
 // bytes 为购买内存的字节数量
-// stakeNET 是抵押 NET 的 FO 数量，stakeCPU 是抵押 CPU 的 FO 数量
+// stakeNET 是抵押 NET 的 EOS 数量，stakeCPU 是抵押 CPU 的 EOS 数量
 
 const creator = 'xxxxxaccount';
 const name = 'newaccount';
