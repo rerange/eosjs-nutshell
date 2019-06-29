@@ -2,7 +2,7 @@
 // 在 keys.json 文件里放入你的私钥
 
 // 替换 xxxxxaccount 和 yyyyyaccount 为你的账号，account 是解除抵押的账号，receiver 是接收账号
-// unstakeNET 是解除抵押 NET 的 FO 数量， unstakeCPU 是解除抵押 CPU 的 FO 数量
+// unstakeNET 是解除抵押 NET 的 EOS 数量， unstakeCPU 是解除抵押 CPU 的 EOS 数量
 const account = 'xxxxxaccount';
 const receiver = 'yyyyyaccount';
 const unstakeNET = 0.1000;
