@@ -9,6 +9,6 @@
   "dependencies": {
     "eosjs": "^20.0.0",
     "eosjs-ecc": "^4.0.4",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.7"
   }
 }
